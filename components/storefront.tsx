@@ -56,7 +56,7 @@ export default function Storefront() {
 
   const visibleProducts = useMemo(() => products.filter((product) =>
     (category === 'Todos' || product.category === category || (category === 'Novedades' && product.isNew) || (category === 'Más vendidos' && product.id.endsWith('-0'))) &&
-    (!search || `${product.name} ${product.category} ${product.code}`.toLowerCase().includes(search.toLowerCase())) &&
+    (!search || `${product.name} ${product.category} ${product.code} ${product.line} ${product.description}`.toLowerCase().includes(search.toLowerCase())) &&
     (!sizeFilter || product.sizes.includes(sizeFilter)) &&
     (!colorFilter || product.colors.includes(colorFilter)) &&
     (!availabilityFilter || product.available) && product.price <= maxPrice
@@ -99,7 +99,7 @@ export default function Storefront() {
           <button onClick={() => { setCategory('Lencería'); setMobileMenu(false) }}>Lencería</button>
           <button onClick={() => { setCategory('Vestidos'); setMobileMenu(false) }}>Ropa</button>
           <button onClick={() => { setCategory('Maquillaje'); setMobileMenu(false) }}>Belleza</button>
-          <button onClick={() => { document.getElementById('categorias')?.scrollIntoView({ behavior: 'smooth' }); setMobileMenu(false) }}>Colecciones</button>
+          <button onClick={() => { document.getElementById('catalogo')?.scrollIntoView({ behavior: 'smooth' }); setMobileMenu(false) }}>Colecciones</button>
         </nav>
         <a href="#inicio" className="brand" aria-label="KA Boutique, inicio"><Image src="/ka-boutique-logo.jpeg" alt="KA Boutique" width={100} height={100} priority /></a>
         <div className="header-actions">
@@ -108,21 +108,10 @@ export default function Storefront() {
         </div>
       </header>
 
-      <section id="inicio" className="hero">
-        <Image className="hero-image" src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=2200&q=90" alt="Estilo de temporada KA Boutique" fill priority sizes="100vw" />
-        <div className="hero-shade" />
-        <div className="hero-content"><span className="eyebrow hero-eyebrow">ESTILO QUE SE SIENTE COMO TÚ</span><h1>Un encanto<br /><em>muy tuyo.</em></h1><p>Piezas para celebrar cada versión de ti.</p><button className="hero-cta" onClick={() => document.getElementById('catalogo')?.scrollIntoView({ behavior: 'smooth' })}>DESCUBRE LA COLECCIÓN <ArrowRight size={15} /></button></div>
-        <span className="hero-index">01 — 03</span><span className="hero-caption">NUEVA TEMPORADA · 2026</span>
+      <section id="categorias" className="welcome-banner">
+        <span className="welcome-mark">KA</span>
+        <div><span className="eyebrow">KA BOUTIQUE · VENEZUELA</span><h1>Una pequeña alegría para ti.</h1><p>Moda, lencería y belleza para sentirte increíble.</p></div>
       </section>
-
-      <div className="benefit-strip"><span>PIEZAS ELEGIDAS CON AMOR</span><i>✳</i><span>ATENCIÓN PERSONALIZADA</span><i>✳</i><span>ENVÍOS A TODA VENEZUELA</span></div>
-
-      <section id="categorias" className="category-section section-wrap">
-        <div className="section-heading"><div><span className="eyebrow">ENCUENTRA TU FAVORITO</span><h2>Un mundo <em>de posibilidades</em></h2></div><button className="text-link" onClick={() => { setCategory('Todos'); document.getElementById('catalogo')?.scrollIntoView({ behavior: 'smooth' }) }}>Ver todo <ArrowRight size={15} /></button></div>
-        <div className="category-rail">{categories.map((item, index) => <button key={item.name} className={`category-tile ${category === item.name ? 'category-active' : ''}`} onClick={() => { setCategory(item.name); document.getElementById('catalogo')?.scrollIntoView({ behavior: 'smooth' }) }}><span className="category-image"><Image src={item.image} alt="" fill sizes="(max-width: 640px) 34vw, 16vw" className="object-cover" /></span><span className="category-label">{item.name}</span><span className="category-number">0{index + 1}</span></button>)}</div>
-      </section>
-
-      <section className="editorial-band"><div className="editorial-image"><Image src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1100&q=85" alt="Look editorial de la colección KA Boutique" fill sizes="50vw" className="object-cover" /></div><div className="editorial-copy"><span className="eyebrow">ESENCIALES, CON UN GIRO</span><h2>El arte de<br />sentirte <em>increíble.</em></h2><p>Texturas que enamoran. Siluetas que celebran. Ese detalle que hace que todo se sienta más tú.</p><button className="text-link" onClick={() => { setCategory('Vestidos'); document.getElementById('catalogo')?.scrollIntoView({ behavior: 'smooth' }) }}>Explorar la selección <ArrowRight size={15} /></button><span className="editorial-mark">KA · 2026</span></div></section>
 
       <section id="catalogo" className="catalog-section section-wrap">
         <div className="section-heading catalog-heading"><div><span className="eyebrow">HECHO PARA ENAMORARTE</span><h2>{category === 'Todos' ? <>Nuestros <em>favoritos</em></> : <>{category} <em>para ti</em></>}</h2></div><span className="result-count">{visibleProducts.length} PIEZAS</span></div>
