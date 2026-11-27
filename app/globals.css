@@ -204,3 +204,42 @@
 .welcome-banner p { color:#6f5b67; font-family:Georgia,serif; font-size:14px; margin:0; }
 .catalog-section { padding-top:45px; }
 @media (max-width:640px) { .welcome-banner { gap:16px; padding:25px 5%; } .welcome-mark { width:55px; height:55px; flex-basis:55px; font-size:19px; } .welcome-banner h1 { font-size:25px; } .welcome-banner p { font-size:12px; } .catalog-section { padding-top:32px; } }
+
+/* KA Boutique brand refinement: white, pink and soft neutral */
+:root {
+  --background: #fffafd; --foreground: #30232b; --card: #ffffff; --card-foreground: #30232b;
+  --primary: #ff87ce; --primary-foreground: #30232b; --secondary: #fff0f8; --secondary-foreground: #30232b;
+  --muted: #fff3f9; --muted-foreground: #76616e; --accent: #ffb6df; --accent-foreground: #30232b;
+  --border: #f2d8e8; --input: #f2d8e8; --ring: #ff87ce;
+}
+.announcement { background:#ff87ce; color:#30232b; font-weight:600; }
+.announcement span { color:#fff; }
+.site-header { background:#fff; border-bottom-color:#f4d7e8; }
+.main-nav button,.footer-column button { color:#46313d; }
+.main-nav button:hover,.footer-column button:hover,.footer-column a:hover { color:#c84e98; }
+.search-wrap { border-color:#e9b9d7; color:#74536a; }
+.icon-button { color:#49333f; }
+.welcome-banner { background:linear-gradient(110deg,#fff0f8,#fffafd 72%); }
+.welcome-mark { border-color:#ff87ce; color:#c84e98; background:#fff; }
+.welcome-banner .eyebrow { color:#c84e98; }
+.hero-cta:hover { background:#ff87ce; color:#30232b; }
+.section-heading h2 em,.newsletter h2 em { color:#c84e98; }
+.category-active .category-label,.quick-add { color:#c84e98; }
+.catalog-tabs .tab-active:after { background:#ff87ce; }
+.filter-panel input[type=range] { accent-color:#c84e98; }
+.product-tag { background:#fff0f8; color:#6b3858; }
+.load-more { border-color:#ff87ce; color:#583b4d; }
+.load-more:hover { background:#fff0f8; }
+.newsletter { background:#fff0f8; }
+.newsletter form { border-color:#c84e98; }
+.site-footer { background:#30232b; }
+.footer-column>span:first-child { color:#ff87ce; }
+.footer-social a { color:#ffb6df; }
+.footer-social a:hover { color:#fff; }
+.checkout-button,.dark-button { background:#30232b; border-color:#30232b; }
+.checkout-button:hover,.dark-button:hover { background:#c84e98; border-color:#c84e98; color:#fff; }
+.size-options .size-selected { background:#c84e98; border-color:#c84e98; }
+.color-swatch.swatch-selected { outline-color:#c84e98; }
+.floating-whatsapp { position:fixed; z-index:18; right:22px; bottom:22px; display:flex; align-items:center; gap:9px; padding:13px 17px; border-radius:999px; background:#ff87ce; color:#30232b; text-decoration:none; box-shadow:0 8px 24px #30232b26; font-size:12px; font-weight:600; transition:transform .2s,box-shadow .2s; }
+.floating-whatsapp:hover { transform:translateY(-3px); box-shadow:0 12px 30px #30232b30; }
+@media(max-width:700px) { .floating-whatsapp { right:14px; bottom:14px; padding:12px 15px; } }
