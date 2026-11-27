@@ -97,8 +97,8 @@ export default function Storefront() {
         <nav className={`main-nav ${mobileMenu ? 'nav-open' : ''}`} aria-label="Navegación principal">
           <button onClick={() => { setCategory('Todos'); setMobileMenu(false) }}>Novedades</button>
           <button onClick={() => { setCategory('Lencería'); setMobileMenu(false) }}>Lencería</button>
-          <button onClick={() => { setCategory('Vestidos'); setMobileMenu(false) }}>Ropa</button>
-          <button onClick={() => { setCategory('Maquillaje'); setMobileMenu(false) }}>Belleza</button>
+          <button onClick={() => { setCategory('Pijamas'); setMobileMenu(false) }}>Pijamas</button>
+          <button onClick={() => { setCategory('Trajes de baño'); setMobileMenu(false) }}>Trajes de baño</button>
           <button onClick={() => { document.getElementById('catalogo')?.scrollIntoView({ behavior: 'smooth' }); setMobileMenu(false) }}>Colecciones</button>
         </nav>
         <a href="#inicio" className="brand" aria-label="KA Boutique, inicio"><Image src="/ka-boutique-logo.jpeg" alt="KA Boutique" width={100} height={100} priority /></a>
