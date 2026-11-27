@@ -243,3 +243,74 @@
 .floating-whatsapp { position:fixed; z-index:18; right:22px; bottom:22px; display:flex; align-items:center; gap:9px; padding:13px 17px; border-radius:999px; background:#ff87ce; color:#30232b; text-decoration:none; box-shadow:0 8px 24px #30232b26; font-size:12px; font-weight:600; transition:transform .2s,box-shadow .2s; }
 .floating-whatsapp:hover { transform:translateY(-3px); box-shadow:0 12px 30px #30232b30; }
 @media(max-width:700px) { .floating-whatsapp { right:14px; bottom:14px; padding:12px 15px; } }
+
+/* --- KA Boutique storefront polish v2 --- */
+:root { --ka-pink:#FF87CE; --ka-ink:#30232b; --ka-soft:#fff0f8; --ka-mid:#c84e98; }
+body { background:#fffafd; color:var(--ka-ink); }
+.announcement { background:var(--ka-pink); color:var(--ka-ink); min-height:30px; font-size:9px; letter-spacing:.17em; }
+.announcement span { color:#fff; }
+.site-header { height:88px; padding-inline:5%; background:rgba(255,255,255,.96); border-bottom:1px solid #f5d9e9; box-shadow:0 4px 18px rgba(190,92,151,.045); }
+.brand img { object-fit:contain; }
+.main-nav { gap:clamp(12px,2vw,28px); }
+.main-nav button { position:relative; padding:8px 0; font-size:10px; letter-spacing:.11em; transition:color .2s; }
+.main-nav button:after { content:''; position:absolute; bottom:2px; left:0; width:0; height:1px; background:var(--ka-pink); transition:width .2s; }
+.main-nav button:hover:after { width:100%; }
+.header-actions { gap:20px; }
+.search-wrap { border:1px solid #f1cce2; border-radius:30px; padding:9px 13px; background:#fff; }
+.search-wrap kbd { border:0; color:#a98b9d; background:var(--ka-soft); border-radius:4px; }
+.cart-trigger { border-radius:30px; transition:background .2s; }
+.cart-trigger:hover { background:var(--ka-soft); }
+.welcome-banner { padding:38px 7%; background:linear-gradient(105deg,#fff0f8,#fffafd 70%,#ffe4f3); gap:25px; }
+.welcome-mark { box-shadow:0 0 0 5px rgba(255,135,206,.12); }
+.welcome-banner h1 { letter-spacing:-.035em; }
+.catalog-section { max-width:1440px; margin:0 auto; padding:58px 5.5% 85px; }
+.catalog-heading { margin-bottom:32px; }
+.section-heading h2 { letter-spacing:-.035em; }
+.catalog-toolbar { border-color:#f0d8e7; }
+.catalog-tabs button { padding:0 3px; }
+.catalog-tabs .tab-active { color:var(--ka-mid); }
+.filter-trigger { border-radius:30px; padding:10px 13px; border:1px solid #f1cce2; transition:background .2s; }
+.filter-trigger:hover { background:var(--ka-soft); }
+.filter-panel { padding:22px; margin-bottom:28px; border:1px solid #f4dce9; border-radius:12px; background:#fff; }
+.product-grid { column-gap:22px; row-gap:44px; }
+.product-card { transition:transform .25s ease; }
+.product-card:hover { transform:translateY(-3px); }
+.product-image { border-radius:8px; background:#fff0f8; }
+.product-tag,.sold-tag { border-radius:3px; backdrop-filter:blur(8px); }
+.product-tag { background:#fff; color:#a0447c; }
+.sold-tag { background:var(--ka-ink); }
+.product-info { padding-top:14px; }
+.product-category { color:#b36a97; letter-spacing:.15em; }
+.product-name { line-height:1.5; transition:color .2s; }
+.product-name:hover { color:var(--ka-mid); }
+.product-price { color:var(--ka-ink); font-weight:600; }
+.quick-add { opacity:1; border-bottom:1px solid transparent; width:max-content; transition:border-color .2s; }
+.quick-add:hover { border-color:var(--ka-pink); }
+.load-more { border-radius:30px; padding:15px 25px; transition:all .2s; letter-spacing:.15em; }
+.newsletter { background:linear-gradient(135deg,#fff0f8,#fffafd); border-top:1px solid #f6dbea; border-bottom:1px solid #f6dbea; }
+.newsletter form { background:#fff; border-radius:30px; border:1px solid #f0c5de; padding:0 15px; }
+.newsletter form button { color:var(--ka-mid); }
+.site-footer { background:#30232b; }
+.footer-bottom { border-color:#614958; }
+.checkout-button,.dark-button { border-radius:5px; transition:all .2s; }
+.floating-whatsapp { bottom:26px; border:1px solid #fff7fc; }
+.product-modal { border-radius:12px; box-shadow:0 20px 80px #30232b30; }
+.modal-photo { background:#fff0f8; }
+.modal-details { background:#fffafd; }
+.size-options button { border-radius:4px; transition:all .2s; }
+.size-options button:hover { border-color:var(--ka-pink); }
+@media(max-width:1050px) { .site-header { height:78px; }.product-grid { gap:26px 16px; } }
+@media(max-width:700px) {
+ .site-header { height:66px; }
+ .main-nav.nav-open { background:#fff; border-bottom:2px solid var(--ka-pink); }
+ .welcome-banner { padding:26px 5%; }
+ .catalog-section { padding:38px 4% 60px; }
+ .catalog-heading { margin-bottom:20px; }
+ .product-grid { gap:24px 10px; }
+ .product-image { border-radius:5px; }
+ .product-info { gap:5px; padding-top:9px; }
+ .product-name { font-size:12px; }
+ .quick-add { padding-top:7px; }
+ .filter-panel { padding:15px; border-radius:8px; }
+ .floating-whatsapp { bottom:16px; }
+}
