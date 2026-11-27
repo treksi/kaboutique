@@ -412,7 +412,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Accesorios de playa y bikini negro.png",
     "description": "Accesorios de playa y bikini negro. Precio especial de $19,99.",
     "isNew": true
   },
@@ -433,7 +433,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Bikini amarillo en la playa.png",
     "description": "Bikini amarillo en la playa. Precio especial de $19,99.",
     "isNew": true
   },
@@ -454,7 +454,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Bikini aqua y accesorios playeros.png",
     "description": "Bikini aqua y accesorios playeros. Precio especial de $19,99.",
     "isNew": true
   },
@@ -475,7 +475,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Bikini azul marino y accesorios playeros.png",
     "description": "Bikini azul marino y accesorios playeros. Precio especial de $19,99.",
     "isNew": false
   },
@@ -496,7 +496,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Bikini azul pastel en la playa.png",
     "description": "Bikini azul pastel en la playa. Precio especial de $19,99.",
     "isNew": false
   },
@@ -517,7 +517,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Bikini azul y gafas sobre arena.png",
     "description": "Bikini azul y gafas sobre arena. Precio especial de $19,99.",
     "isNew": false
   },
@@ -538,7 +538,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Bikini boutique en la playa.png",
     "description": "Bikini boutique en la playa. Precio especial de $19,99.",
     "isNew": false
   },
@@ -559,7 +559,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Bikini burdeos bajo el sol tropical.png",
     "description": "Bikini burdeos bajo el sol tropical. Precio especial de $19,99.",
     "isNew": false
   },
@@ -580,7 +580,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Bikini burdeos en paraíso tropical.png",
     "description": "Bikini burdeos en paraíso tropical. Precio especial de $19,99.",
     "isNew": false
   },
@@ -601,7 +601,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Bikini crema y accesorios de playa.png",
     "description": "Bikini crema y accesorios de playa. Precio especial de $19,99.",
     "isNew": false
   },
@@ -622,7 +622,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Bikini Floral en la Playa.png",
     "description": "Bikini Floral en la Playa. Precio especial de $19,99.",
     "isNew": false
   },
@@ -643,7 +643,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Bikini floral en playa soleada.png",
     "description": "Bikini floral en playa soleada. Precio especial de $19,99.",
     "isNew": false
   },
@@ -664,7 +664,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Bikini floral gris sobre arena con accesorios playeros.png",
     "description": "Bikini floral gris sobre arena con accesorios playeros. Precio especial de $19,99.",
     "isNew": false
   },
@@ -685,7 +685,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Bikini marfil y accesorios playeros elegantes.png",
     "description": "Bikini marfil y accesorios playeros elegantes. Precio especial de $19,99.",
     "isNew": false
   },
@@ -706,7 +706,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Bikini negro en playa soleada.png",
     "description": "Bikini negro en playa soleada. Precio especial de $19,99.",
     "isNew": false
   },
@@ -727,7 +727,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Bikini negro y accesorios de playa.png",
     "description": "Bikini negro y accesorios de playa. Precio especial de $19,99.",
     "isNew": false
   },
@@ -748,7 +748,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Bikini rojo y accesorios sobre arena.png",
     "description": "Bikini rojo y accesorios sobre arena. Precio especial de $19,99.",
     "isNew": false
   },
@@ -769,7 +769,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Bikini tejido con detalles marinos en la playa.png",
     "description": "Bikini tejido con detalles marinos en la playa. Precio especial de $19,99.",
     "isNew": false
   },
@@ -790,7 +790,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Bikini turquesa y accesorios de playa.png",
     "description": "Bikini turquesa y accesorios de playa. Precio especial de $19,99.",
     "isNew": false
   },
@@ -811,7 +811,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Bikini verde y joyería sobre arena.png",
     "description": "Bikini verde y joyería sobre arena. Precio especial de $19,99.",
     "isNew": false
   },
@@ -832,7 +832,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Bikini y accesorios sobre arena dorada.png",
     "description": "Bikini y accesorios sobre arena dorada. Precio especial de $19,99.",
     "isNew": false
   },
@@ -853,7 +853,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Bikinis plisados bajo el sol de playa.png",
     "description": "Bikinis plisados bajo el sol de playa. Precio especial de $19,99.",
     "isNew": false
   },
@@ -874,7 +874,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Conjunto bikini negro en la playa.png",
     "description": "Conjunto bikini negro en la playa. Precio especial de $19,99.",
     "isNew": false
   },
@@ -895,7 +895,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Conjunto Crochet Azul en la Playa.png",
     "description": "Conjunto Crochet Azul en la Playa. Precio especial de $19,99.",
     "isNew": false
   },
@@ -916,7 +916,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Conjunto crochet marfil junto al mar.png",
     "description": "Conjunto crochet marfil junto al mar. Precio especial de $19,99.",
     "isNew": false
   },
@@ -937,7 +937,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Conjunto de baño negro en la playa.png",
     "description": "Conjunto de baño negro en la playa. Precio especial de $19,99.",
     "isNew": false
   },
@@ -958,7 +958,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Conjunto negro de playa sobre arena.png",
     "description": "Conjunto negro de playa sobre arena. Precio especial de $19,99.",
     "isNew": false
   },
@@ -979,7 +979,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Conjunto playero negro sobre arena.png",
     "description": "Conjunto playero negro sobre arena. Precio especial de $19,99.",
     "isNew": false
   },
@@ -1000,7 +1000,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Conjunto Turquesa y Verano en la Playa.png",
     "description": "Conjunto Turquesa y Verano en la Playa. Precio especial de $19,99.",
     "isNew": false
   },
@@ -1021,7 +1021,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Flat Lay Boutique de Playa Black Bikini.png",
     "description": "Flat Lay Boutique de Playa Black Bikini. Precio especial de $19,99.",
     "isNew": false
   },
@@ -1042,7 +1042,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Flat-Lay Boutique Playera en la Arena.png",
     "description": "Flat-Lay Boutique Playera en la Arena. Precio especial de $19,99.",
     "isNew": false
   },
@@ -1063,7 +1063,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Moda playera roja sobre arena cálida.png",
     "description": "Moda playera roja sobre arena cálida. Precio especial de $19,99.",
     "isNew": false
   },
@@ -1084,7 +1084,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Pantalones blancos sobre arena con logo boutique.png",
     "description": "Pantalones blancos sobre arena con logo boutique. Precio especial de $19,99.",
     "isNew": false
   },
@@ -1105,7 +1105,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Pantalón playero junto al mar.png",
     "description": "Pantalón playero junto al mar. Precio especial de $19,99.",
     "isNew": false
   },
@@ -1126,7 +1126,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Relajante conjunto de bikini junto al mar.png",
     "description": "Relajante conjunto de bikini junto al mar. Precio especial de $19,99.",
     "isNew": false
   },
@@ -1147,7 +1147,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Traje de baño boutique sobre arena tropical.png",
     "description": "Traje de baño boutique sobre arena tropical. Precio especial de $19,99.",
     "isNew": false
   },
@@ -1168,7 +1168,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Traje de baño y accesorios playeros.png",
     "description": "Traje de baño y accesorios playeros. Precio especial de $19,99.",
     "isNew": false
   },
@@ -1189,7 +1189,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Trajes de baño sobre arena con logo boutique.png",
     "description": "Trajes de baño sobre arena con logo boutique. Precio especial de $19,99.",
     "isNew": false
   },
@@ -1210,7 +1210,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Vestido Playero Rayado en la Arena.png",
     "description": "Vestido Playero Rayado en la Arena. Precio especial de $19,99.",
     "isNew": false
   },
@@ -1231,7 +1231,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/trajes-de-bano/Vestido playero y accesorios sobre arena.png",
     "description": "Vestido playero y accesorios sobre arena. Precio especial de $19,99.",
     "isNew": false
   },
@@ -1252,7 +1252,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/pijamas/Pijama azul pastel con detalles de lazos.png",
     "description": "Pijama azul pastel con detalles de lazos. Precio especial de $19,99.",
     "isNew": true
   },
@@ -1273,7 +1273,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/pijamas/Pijama de satén rosa con lazo.png",
     "description": "Pijama de satén rosa con lazo. Precio especial de $19,99.",
     "isNew": true
   },
@@ -1294,7 +1294,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/pijamas/Pijama negro con corazones rosas.png",
     "description": "Pijama negro con corazones rosas. Precio especial de $19,99.",
     "isNew": true
   },
@@ -1315,7 +1315,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/pijamas/Pijama negro con lazos rosas y logo boutique.png",
     "description": "Pijama negro con lazos rosas y logo boutique. Precio especial de $19,99.",
     "isNew": false
   },
@@ -1336,7 +1336,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/pijamas/Pijama satinado coral con corazones.png",
     "description": "Pijama satinado coral con corazones. Precio especial de $19,99.",
     "isNew": false
   },
@@ -1357,7 +1357,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/pijamas/Pijama satinado de lazo y corazones.png",
     "description": "Pijama satinado de lazo y corazones. Precio especial de $19,99.",
     "isNew": false
   },
@@ -1378,7 +1378,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/pijamas/Pijama satinado rosa con detalles negros.png",
     "description": "Pijama satinado rosa con detalles negros. Precio especial de $19,99.",
     "isNew": false
   },
@@ -1399,7 +1399,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/pijamas/Pijamas satinados “Good Night” con logo boutique.png",
     "description": "Pijamas satinados Good Night con logo boutique. Precio especial de $19,99.",
     "isNew": false
   }
