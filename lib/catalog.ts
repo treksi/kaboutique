@@ -34,7 +34,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/lenceria/file_0000000002f88207a739214d0cd34756.png",
     "description": "Body negro de encaje con tiras. Precio especial de $19,99.",
     "isNew": true
   },
@@ -55,7 +55,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/lenceria/file_0000000011248207a424782206dd2874.png",
     "description": "Body negro de encaje y tiras cruzadas. Precio especial de $19,99.",
     "isNew": true
   },
@@ -76,7 +76,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/lenceria/file_000000001c808211a0f1cdccf66b3429.png",
     "description": "Conjunto rojo de encaje. Precio especial de $19,99.",
     "isNew": true
   },
@@ -97,7 +97,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/lenceria/file_00000000351c820781c4b28902bd483a.png",
     "description": "Body negro de encaje con lazos laterales. Precio especial de $19,99.",
     "isNew": false
   },
@@ -118,7 +118,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/lenceria/file_0000000041908207831ac211f286a403.png",
     "description": "Body rojo de encaje. Precio especial de $19,99.",
     "isNew": false
   },
@@ -139,7 +139,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/lenceria/file_0000000042808207af804d2ab747ee06.png",
     "description": "Conjunto rojo de encaje floral. Precio especial de $19,99.",
     "isNew": false
   },
@@ -160,7 +160,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/lenceria/file_00000000549c8207b6fce080410781ae.png",
     "description": "Conjunto vino de encaje. Precio especial de $19,99.",
     "isNew": false
   },
@@ -181,7 +181,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/lenceria/file_000000005d2c82078964cedc00af903f.png",
     "description": "Conjunto rojo con tiras decorativas. Precio especial de $19,99.",
     "isNew": false
   },
@@ -202,7 +202,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/lenceria/file_000000006ff882078b26bfc9d4c140b9.png",
     "description": "Conjunto negro de encaje. Precio especial de $19,99.",
     "isNew": false
   },
@@ -223,7 +223,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/lenceria/file_0000000077148207af852bc46f9d1ae6.png",
     "description": "Conjunto rojo con transparencias. Precio especial de $19,99.",
     "isNew": false
   },
@@ -244,7 +244,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/lenceria/file_000000009f2c8211b6225a235059a8b9.png",
     "description": "Body blanco de encaje. Precio especial de $19,99.",
     "isNew": false
   },
@@ -265,7 +265,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/lenceria/file_00000000a0008207a8c4a450175481f8.png",
     "description": "Conjunto rojo delicado. Precio especial de $19,99.",
     "isNew": false
   },
@@ -286,7 +286,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/lenceria/file_00000000a0088207a523e14e0252bdb4.png",
     "description": "Body negro de encaje floral. Precio especial de $19,99.",
     "isNew": false
   },
@@ -307,7 +307,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/lenceria/file_00000000a6348207b524790635994671.png",
     "description": "Conjunto negro con detalles fucsia. Precio especial de $19,99.",
     "isNew": false
   },
@@ -328,7 +328,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/lenceria/file_00000000b1648211bcd9ceee6fc50028.png",
     "description": "Body rojo de encaje. Precio especial de $19,99.",
     "isNew": false
   },
@@ -349,7 +349,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/lenceria/file_00000000ccbc8207bdab775edce64eee.png",
     "description": "Conjunto blanco de encaje. Precio especial de $19,99.",
     "isNew": false
   },
@@ -370,7 +370,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/lenceria/file_00000000d1788211a0907cd668a9fdb2.png",
     "description": "Conjunto negro de tiras. Precio especial de $19,99.",
     "isNew": false
   },
@@ -391,7 +391,7 @@ export const products: Product[] = [
       "Variado"
     ],
     "available": true,
-    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=85",
+    "image": "/images/lenceria/file_00000000fe9c8207aa3f5406a55dc273.png",
     "description": "Conjunto negro de encaje floral. Precio especial de $19,99.",
     "isNew": false
   },
